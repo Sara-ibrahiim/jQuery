@@ -57,7 +57,7 @@ $('.tag').click(function(e){
 
 setInterval(function(){
    
-    var future = new Date("april 2 2023 21:15:00 UTC/GMT+2");
+    var future = new Date("april 2 2027 21:15:00 UTC/GMT+2");
     var now = new Date();
     var difference = Math.floor((future - now) / 1000);
 
